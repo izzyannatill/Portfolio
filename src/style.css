@@ -1,3 +1,44 @@
-body {
-    color: red;
+:root {
+    --primary-color: rgb(15, 113, 183);
+    --primary-color-fade: rgba(15, 113, 183, 0.1);
+    --secondary-color: rgb(220, 47, 103);
+    --secondary-color-fade: rgba(220, 47, 103, 0.1);
+    --primary-font:"Montserrat", sans-serif;
+}
+
+.hero {
+    background-color: var(--primary-color-fade);
+    padding: 100px;
+    font-family: var(--primary-font);
+}
+
+.hero h1 {
+text-align: center;
+color: var(--secondary-color);
+}
+
+.hero h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.hero p {
+    text-align: center;
+    font-style: italic;
+}
+
+.hero a {
+    display: block;
+    margin: 0 auto;
+    color: var(--primary-color);
+    border-color: var(--secondary-color);
+    border-width: 2px;
+    background-color: var(--secondary-color-fade);
+    max-width: 250px;
+}
+
+.hero a:hover {
+        border-color: var(--primary-color);
+        color: var(--secondary-color);
+        background-color: var(--primary-color-fade);
 }
