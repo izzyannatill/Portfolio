@@ -15,7 +15,9 @@ background-image: url(/images/hero.png);
 filter: brightness(98%);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 100px;
+    width:100%;
 }
 
 .hero h1 {
