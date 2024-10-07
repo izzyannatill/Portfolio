@@ -6,20 +6,23 @@
     --primary-font:"Montserrat", sans-serif;
 }
 
+body {
+        font-family: var(--primary-font);
+}
+
 .hero {
     background-color: var(--primary-color-fade);
     padding: 100px;
-    font-family: var(--primary-font);
 }
 
 .hero h1 {
 text-align: center;
-color: var(--secondary-color);
+color: var(--primary-color);
 }
 
 .hero h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .hero p {
@@ -35,10 +38,78 @@ color: var(--secondary-color);
     border-width: 2px;
     background-color: var(--secondary-color-fade);
     max-width: 250px;
+    font-weight: 700;
 }
 
 .hero a:hover {
         border-color: var(--primary-color);
         color: var(--secondary-color);
         background-color: var(--primary-color-fade);
+}
+
+.container {
+    padding: 20px;
+    max-width: 80%;
+    padding-bottom: 40px;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 10px;
+    color: var(--primary-color);
+
+}
+
+.container p {
+    text-align: center;
+}
+
+.container img {
+    padding: 10px;
+   display: block;
+   margin: 0 auto;
+}
+
+.container .col-md-4 {
+  text-align: center;
+}
+
+.container a {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: var(--primary-color);
+}
+
+.main {
+    background-color: var(--primary-color-fade);
+}
+
+.main img {
+    max-width: 80%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.main p {
+    text-align: center;
+}
+
+.index-text {
+    align-self: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: var(--primary-color);
+    font-weight: 500;
 }
