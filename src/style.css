@@ -11,7 +11,10 @@ body {
 }
 
 .hero {
-    background-color: var(--primary-color-fade);
+background-image: url(/images/hero.png);
+filter: brightness(98%);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px;
 }
 
@@ -82,7 +85,7 @@ color: var(--primary-color);
 }
 
 .container a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .main {
@@ -112,4 +115,13 @@ color: var(--primary-color);
 .footer a {
     color: var(--primary-color);
     font-weight: 500;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--secondary-color);
+}
+
+hr {
+    color: var(--secondary-color);
 }
