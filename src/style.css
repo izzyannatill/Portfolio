@@ -8,6 +8,7 @@
 
 body {
         font-family: var(--primary-font);
+        font-weight: 450;
 }
 
 .hero {
@@ -53,7 +54,7 @@ color: var(--primary-color);
 }
 
 .container {
-    padding: 20px;
+    padding: 40px;
     max-width: 80%;
     padding-bottom: 40px;
 }
@@ -125,5 +126,5 @@ color: var(--primary-color);
 }
 
 hr {
-    color: var(--secondary-color);
+    color: black;
 }
