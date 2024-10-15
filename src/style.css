@@ -201,3 +201,22 @@ hr {
 .footer-about a:hover {
     color: var(--secondary-color);
 }
+
+.project-button {
+    display: block;
+        margin: 0 auto;
+        color: var(--primary-color);
+        border-color: var(--secondary-color);
+        border-width: 2px;
+        background-color: var(--secondary-color-fade);
+        max-width: 250px;
+        font-weight: 700;
+}
+
+.project-button:hover {
+    border-color: var(--primary-color);
+        color: var(--secondary-color);
+        background-color: var(--primary-color-fade);
+
+}
+
