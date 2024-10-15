@@ -13,7 +13,6 @@ body {
 
 .hero {
 background-image: url(/images/hero.png);
-filter: brightness(98%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -127,4 +126,73 @@ color: var(--primary-color);
 
 hr {
     color: black;
+}
+
+.about-main {
+        padding: 100px;
+        width: 100%;
+        text-align: center;
+        background-image: url(/images/header.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+}
+
+.about-main h1 {
+    color: var(--primary-color);
+}
+
+.about-main h2 {
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+
+.about-body {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about-body h2 {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.about-body img {
+    max-width: 250px;
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-body p {
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+}
+
+@media (min-width:600px) {
+    .about-body p {
+        font-size: 30px;
+        text-align: left;
+    }
+    .about-body img {
+        display: block;
+        
+    }
+}
+
+.footer-about {
+    text-align: center;
+}
+
+.footer-about a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-about a:hover {
+    color: var(--secondary-color);
 }
