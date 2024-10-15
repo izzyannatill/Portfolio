@@ -166,13 +166,18 @@ hr {
     margin: 0 auto;
 }
 
+#about-content {
+    font-size: 18px;
+    text-align: center;
+}
+
 .about-body p {
     text-align: center;
     align-self: center;
     font-size: 20px;
 }
 
-@media (min-width:600px) {
+@media (min-width:800px) {
     .about-body p {
         font-size: 30px;
         text-align: left;
