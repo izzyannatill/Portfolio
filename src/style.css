@@ -147,6 +147,10 @@ hr {
     font-size: 15px;
 }
 
+.about-main p {
+       font-style: italic;
+}
+
 .about-body {
     padding: 40px;
     padding-left: 100px;
@@ -188,18 +192,62 @@ hr {
     }
 }
 
-.footer-about {
-    text-align: center;
+
+.footer {
+        padding: 20px 0;
+    }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-.footer-about a {
+.social-links a {
     color: var(--primary-color);
-    font-weight: 500;
-    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.footer-about a:hover {
+.social-links a:hover {
     color: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.fab {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.social-links a:hover .fab {
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 1.5rem 0;
+    }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .social-links a {
+        font-size: 1.2rem;
+    }
+
+    .fab {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 .project-button {
